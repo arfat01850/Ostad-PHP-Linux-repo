@@ -1,0 +1,28 @@
+<?php
+
+$n = 12;
+$r = ($n%2==0);
+switch($r){
+    case 0:
+        echo "{$n} is an even number";
+        break; 
+    default:
+    echo "{$n} is an odd number";
+}
+
+echo "\n";
+$color = 'read';
+
+switch($color){
+    case 'read':
+        echo "read is our favarite color";
+        break;
+    case 'Green':
+        echo "Green is our favarite color";
+        break;   
+    case 'Black':
+        echo "Black is our favarite color";
+        break;
+    default:
+        echo "It an color";
+}
