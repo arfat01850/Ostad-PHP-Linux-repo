@@ -35,6 +35,57 @@
             document.write("This boy is child");
         }
 
+
+        //if else if statements.
+        var a = 31;
+        if(a==10){
+            document.write("a equals to 10");
+        } else if(a==20){
+            document.write("a equals to 20");
+        } else if(a==30){
+            document.write("a equals to 30");
+        } else {
+            document.write("a not equals to 10, 20 and 30");
+        }
+
+
+        // switch statements. 
+        
+
+        let score = 85;
+        let grade;
+
+        switch (true) {
+         case (score >= 90):
+        grade = "A";
+            break;
+        case (score >= 80):
+            grade = "B";
+            break;
+        case (score >= 70):
+            grade = "C";
+            break;
+        case (score >= 60):
+            grade = "D";
+            break;
+        default:
+            grade = "F";
+            break;
+        }
+
+        document.write("Your score is " + score + " and your grade is " + grade);
+
+        // for loop
+        for(i=1; i<=5; i++){
+            document.write(i + "\n")
+        }
+
+        var i = 11;
+        while (i<=15){
+            document.write(i +"\n");
+            i++;
+        }
+
     </script>
 </body>
 </html>
