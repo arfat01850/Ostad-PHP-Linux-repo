@@ -1,0 +1,13 @@
+h1.div {
+    animation: scale-rotate 2s;
+  }
+  
+  @keyframes scale-rotate {
+    from {
+      transform: scale(0) rotate(0deg);
+    }
+    to {
+      transform: scale(1) rotate(360deg);
+    }
+  }
+  

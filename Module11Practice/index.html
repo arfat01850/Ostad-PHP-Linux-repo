@@ -122,6 +122,52 @@
         //     Citry: "Chattogram",
         //     Country : "Bangladesh",
         // }
+
+        // usgin swith case statement find gradeing system. 
+        
+        var Marks = 20;
+
+        switch(true){
+            case (Marks<=100 && Marks>=80):
+                document.write("Your Grade is A+");
+            break;
+
+
+            case(Marks<80 && Marks>=70):
+                document.write("Your Grade is A-");
+            break;
+            
+            case (Marks<70 && Marks>=60):
+                document.write("Your Grade is B+");
+            break;
+
+            
+            case(Marks<60 && Marks>=50):
+                document.write("Your Grade is A-");
+            break;
+            
+            case (Marks<50 && Marks>=40):
+                document.write("Your Grade is C");
+            break;
+
+            default: 
+                document.write("Your Grade is F <br>");
+          
+
+        }
+
+        
+
+
+        var i;
+         
+        for(i=0; i<9; i++){
+
+            if(i===5 && i===8){
+                continue;
+            }
+            document.write(i+'<button>submit</button><br>');
+        }
         
     </script>
 </body>
