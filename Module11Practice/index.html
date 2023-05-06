@@ -157,17 +157,39 @@
         }
 
         
-
-
+        // for loop
+        
         var i;
          
-        for(i=0; i<9; i++){
+        for(i=0; i<10; i++){
 
-            if(i===5 && i===8){
+            if(i==5 || i==8){
                 continue;
             }
-            document.write(i+'<button>submit</button><br>');
+            document.write(i+'<button>For Loop</button><br><br>');
         }
+        //while loop
+       var j = 0;
+       while(j<3){
+        document.write(j+'<button>While Loop</button><br><br>');
+        j=j+1;
+       }
+
+
+       var k = 0;
+       do{
+        document.write(k+'<button>Do While Loop</button><br><br>');
+        k = k+1;
+       }while(k<6);
+
+       function AddTwoNumber(){
+        var num1=50;
+        var num2=60;
+        var num3=num1+num2;
+        document.write(num3);
+       }
+
+       AddTwoNumber();
         
     </script>
 </body>
